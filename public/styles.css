@@ -1,50 +1,45 @@
-/* Global Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f7fc; /* Light background color */
-  color: #333; /* Dark text for contrast */
+  background-color: #f4f7fc; 
+  color: #333;
   line-height: 1.6;
   padding: 20px;
 }
 
-/* Centering the main content container */
 .container {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center;     /* Center vertically */
-  min-height: 100vh;       /* Take up full viewport height */
+  justify-content: center; 
+  align-items: center;     
+  min-height: 100vh;       
   padding: 20px;
 }
 
-/* Styling the form and list container */
 .form-container {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 600px; /* Max width for larger screens */
+  max-width: 600px; 
   margin-top: 20px;
 }
 
-/* Header */
 h1 {
-  color: #4CAF50; /* Green color for headings */
+  color: #4CAF50; 
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* Links Styling */
 a {
   text-decoration: none;
-  color: #4CAF50; /* Matching color for links */
+  color: #4CAF50; 
   font-weight: bold;
 }
 
@@ -52,7 +47,6 @@ a:hover {
   color: #45a049;
 }
 
-/* Form Styling */
 form {
   display: flex;
   flex-direction: column;
@@ -82,7 +76,6 @@ button:hover {
   background-color: #45a049;
 }
 
-/* Workout List Styling */
 ul {
   list-style-type: none;
   padding: 0;
@@ -103,19 +96,18 @@ li a {
 }
 
 li a:hover {
-  color: #4CAF50; /* Green color on hover */
+  color: #4CAF50;
 }
 
 form button {
-  background-color: #f44336; /* Red color for delete button */
+  background-color: #f44336; 
   color: white;
 }
 
 form button:hover {
-  background-color: #e53935; /* Darker red on hover */
+  background-color: #e53935;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .container {
     padding: 10px;
